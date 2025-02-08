@@ -10,12 +10,12 @@ class FirebaseStorageProvider implements StorageProvider {
   constructor() {
     // Initialize Firebase
     const firebaseConfig = {
-      apiKey: "AIzaSyAe1TanOcNDK_DH8hmclAALcmDoael0qGg",
-      authDomain: "test-excalidraw-project.firebaseapp.com",
-      projectId: "test-excalidraw-project",
-      storageBucket: "test-excalidraw-project.firebasestorage.app",
-      messagingSenderId: "988766669581",
-      appId: "1:988766669581:web:1f32a14efcf4f5cdd7fe44",
+      apiKey: "<<YOUR_API_KEY>>",
+      authDomain: "<<YOUR_AUTH_DOMAIN>>",
+      projectId: "<<YOUR_PROJECT_ID>>",
+      storageBucket: "<<YOUR_STORAGE_BUCKET>>",
+      messagingSenderId: "<<YOUR_MESSAGING_SENDER_ID>>",
+      appId: "<<YOUR_APP_ID>>",
     };
     const app = initializeApp(firebaseConfig);
     this.db = getFirestore(app);

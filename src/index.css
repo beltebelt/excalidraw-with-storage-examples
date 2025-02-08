@@ -1,0 +1,8 @@
+html,
+body,
+#root {
+  all: unset;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+}

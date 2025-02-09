@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@directus/sdk": "^19.0.1",
     "@supabase/supabase-js": "^2.48.1",
     "appwrite": "^17.0.0",
     "excalidraw-with-storage": "^0.0.3",

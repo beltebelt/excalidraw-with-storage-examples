@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.48.1",
+    "appwrite": "^17.0.0",
     "excalidraw-with-storage": "^0.0.3",
     "firebase": "^11.3.0",
     "pocketbase": "^0.25.1",

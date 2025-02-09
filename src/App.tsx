@@ -1,13 +1,14 @@
-// import WithFirebase from "./examples/firebase/WithFirebase";
-import WithPocketbase from "./examples/pocketbase/WithPocketbase";
+// import WithPocketbase from "./examples/pocketbase/WithPocketbase";
 // import WithSupabase from "./examples/supabase/WithSupabase";
+import WithAppwrite from "./examples/appwrite/WithAppwrite";
+// import WithFirebase from "./examples/firebase/WithFirebase";
 
 function App() {
   return (
     <>
-      <WithPocketbase />
+      {/* <WithPocketbase /> */}
       {/* <WithSupabase /> */}
-      {/* <WithAppwrite /> */}
+      <WithAppwrite />
       {/* <WithFirebase /> */}
     </>
   );

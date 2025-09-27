@@ -7,10 +7,12 @@
 
 ### Integration
 
-1. Import the component and the storage provider interface
+1. Import the component, assets and the storage provider interface
 
 ```typescript
 import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
+import "excalidraw-with-storage/index.css";
+window.EXCALIDRAW_ASSET_PATH = "/";
 ```
 
 2. Create your own class that implements `StorageProvider`. You can find sample implementations in the `src/examples` folder.
@@ -23,8 +25,17 @@ import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
      - `yarn`
    - Run a dev server. The websocket server will be running at `http://localhost:3002`
      - `yarn start:dev`
-
-4. Use the ExcalidrawApp component in your application.
+4. Create a `global.d.ts` file in the `src` folder of your project, with following content:
+   ```js
+   export { };
+   declare global {
+       interface Window {
+           EXCALIDRAW_ASSET_PATH: string;
+       }
+   }
+   ```
+5. Copy the `fonts` folder from `node_modules/excalidraw-with-storage/dist/prod/fonts` to the public folder of your react project
+6. Use the ExcalidrawApp component in your application.
 
 ```tsx
 <ExcalidrawApp

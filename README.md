@@ -2,7 +2,7 @@
 
 ### Installation:
 
-1. Create a new react app.
+1. Create a new react app: `npm create vite@latest`
 2. Install the package using `npm i excalidraw-with-storage`.
 
 ### Integration
@@ -10,7 +10,7 @@
 1. Import the component and the storage provider interface
 
 ```typescript
-import { ExcalidrawApp, StorageProvider } from "excalidraw-with-storage";
+import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
 ```
 
 2. Create your own class that implements `StorageProvider`. You can find sample implementations in the `src/examples` folder.

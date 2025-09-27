@@ -1,4 +1,4 @@
-import { ExcalidrawApp, StorageProvider } from "excalidraw-with-storage";
+import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
 import { Client, Databases, Storage, ID, Query } from "appwrite";
 
 // Crude workaround since appwrite restricts fileId to 36 characters

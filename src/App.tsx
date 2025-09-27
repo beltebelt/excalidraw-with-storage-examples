@@ -4,9 +4,11 @@ import WithPocketbase from "./examples/pocketbase/WithPocketbase";
 // import WithDirectus from "./examples/directus/WithDirectus";
 // import WithFirebase from "./examples/firebase/WithFirebase";
 
+import 'excalidraw-with-storage/index.css'
+
 function App() {
   return (
-    <>
+    <div style={{height: '100dvh'}}>
       <WithPocketbase />
       {/* <WithSupabase /> */}
       {/* <WithAppwrite /> */}

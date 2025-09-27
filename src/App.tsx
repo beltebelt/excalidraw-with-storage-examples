@@ -14,7 +14,7 @@ function App() {
       {/* <WithAppwrite /> */}
       {/* <WithFirebase /> */}
       {/* <WithDirectus /> */}
-    </>
+    </div>
   );
 }
 

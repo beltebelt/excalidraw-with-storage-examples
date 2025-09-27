@@ -1,4 +1,4 @@
-import { ExcalidrawApp, StorageProvider } from "excalidraw-with-storage";
+import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
 
 class SupabaseStorageProvider implements StorageProvider {

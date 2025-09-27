@@ -1,4 +1,4 @@
-import { ExcalidrawApp, StorageProvider } from "excalidraw-with-storage";
+import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
 import { createDirectus, createItem, DirectusClient, readFiles, readItems, rest, updateItem, uploadFiles } from "@directus/sdk";
 
 class DirectusStorageProvider implements StorageProvider {

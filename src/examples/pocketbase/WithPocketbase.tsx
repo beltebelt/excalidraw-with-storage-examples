@@ -1,4 +1,4 @@
-import { ExcalidrawApp, StorageProvider } from "excalidraw-with-storage";
+import { ExcalidrawApp, type StorageProvider } from "excalidraw-with-storage";
 import PocketBase from "pocketbase";
 
 class PocketbaseStorageProvider implements StorageProvider {

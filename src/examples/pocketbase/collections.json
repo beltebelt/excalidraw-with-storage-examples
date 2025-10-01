@@ -929,7 +929,9 @@
         "type": "autodate"
       }
     ],
-    "indexes": [],
+    "indexes": [
+        "CREATE INDEX `idx_JMK0RcozkB` ON `scenes` (`roomId`)"
+    ],
     "system": false
   }
 ]

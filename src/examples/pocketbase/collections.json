@@ -930,7 +930,7 @@
       }
     ],
     "indexes": [
-        "CREATE INDEX `idx_JMK0RcozkB` ON `scenes` (`roomId`)"
+        "CREATE UNIQUE INDEX `idx_JMK0RcozkB` ON `scenes` (`roomId`)"
     ],
     "system": false
   }
